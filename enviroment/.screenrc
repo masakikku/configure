@@ -1,0 +1,12 @@
+defutf8 on
+defencoding utf8
+encoding utf8 utf8
+
+startup_message off
+vbell off
+
+escape ^Tt
+
+altscreen on
+
+hardstatus alwayslastline "%{= cd} %-w%{= wk} %n %t* %{-}%+w"
